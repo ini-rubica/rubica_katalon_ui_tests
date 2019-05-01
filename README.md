@@ -1,1 +1,3 @@
 rubica_katalon_ui_tests
+
+rubica_tests
