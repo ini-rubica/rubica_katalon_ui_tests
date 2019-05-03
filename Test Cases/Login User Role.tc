@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Role login attempt</description>
+   <name>Login User Role</name>
+   <tag>login, user</tag>
+   <comment></comment>
+   <testCaseGuid>f2ec6ef4-0450-4303-9750-3c0096bb52fb</testCaseGuid>
+</TestCaseEntity>

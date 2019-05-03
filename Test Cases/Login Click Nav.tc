@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifying Top and Left Nav links</description>
+   <name>Login Click Nav</name>
+   <tag>login, top_nav, left_nav</tag>
+   <comment></comment>
+   <testCaseGuid>6a3bb8e5-3093-4bba-84dc-c48df59f0732</testCaseGuid>
+</TestCaseEntity>
