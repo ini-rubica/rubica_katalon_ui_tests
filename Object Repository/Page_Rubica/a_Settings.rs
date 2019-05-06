@@ -6,6 +6,10 @@
    <elementGuidId>0eccc07d-a72a-49e3-aa01-cfcd0043c62f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='spark-navbar-collapse']/ul[2]/li[4]/a</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and (text() = '
                             
@@ -14,10 +18,6 @@
                             
                             Settings
                             ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='spark-navbar-collapse']/ul[2]/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
