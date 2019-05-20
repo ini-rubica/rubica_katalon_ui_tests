@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logins" time="22" tests="3" failures="0" errors="0">
+   <testsuite name="Logins" tests="3" failures="0" errors="0" time="22" timestamp="2018-09-21 09:29:12" hostname="ryan - 192.168.86.32" id="Test Suites/Logins">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ryan/Projects/KatalonClientPortal/KatalonClientPortal/Reports/Logins/20180921_092910"/>
+         <property name="logFiles" value="/Users/ryan/Projects/KatalonClientPortal/KatalonClientPortal/Reports/Logins/20180921_092910/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ryan - 192.168.86.32"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.86.32"/>
+         <property name="sessionId" value="65f4708aedcd07a0638abdbb894d50e0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login User Role" classname="Test Cases/Login User Role" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:29:13 - [TEST_CASE][PASSED] - Test Cases/Login User Role: Test Cases/Login User Role
+
+2018-09-21 09:29:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 09:29:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 09:29:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:19 - [MESSAGE][PASSED] - Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:19 - [TEST_STEP][PASSED] - setText: Text 'ryan.harmaning+apiautouser1@gmail.com' is set on object 'Object Repository/Page_Rubica/input__email'
+
+2018-09-21 09:29:19 - [MESSAGE][PASSED] - Text 'ryan.harmaning+apiautouser1@gmail.com' is set on object 'Object Repository/Page_Rubica/input__email'
+
+2018-09-21 09:29:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Rubica/input_Forgot Your Password_pas'
+
+2018-09-21 09:29:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rubica/input_Forgot Your Password_pas'
+
+2018-09-21 09:29:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Rubica/button_Login (1)' is clicked on
+
+2018-09-21 09:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rubica/button_Login (1)' is clicked on
+
+2018-09-21 09:29:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'This user is not allowed to login.' is present on page 
+
+2018-09-21 09:29:21 - [MESSAGE][PASSED] - Text 'This user is not allowed to login.' is present on page 
+
+2018-09-21 09:29:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 09:29:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Bad Password" classname="Test Cases/Login Bad Password" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:29:21 - [TEST_CASE][PASSED] - Test Cases/Login Bad Password: Test Cases/Login Bad Password
+
+2018-09-21 09:29:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 09:29:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 09:29:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:24 - [MESSAGE][PASSED] - Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:24 - [TEST_STEP][PASSED] - setText: Text 'ryan.harmaning+apiauto@gmail.com' is set on object 'Object Repository/Page_Rubica/input_email (2)'
+
+2018-09-21 09:29:24 - [MESSAGE][PASSED] - Text 'ryan.harmaning+apiauto@gmail.com' is set on object 'Object Repository/Page_Rubica/input_email (2)'
+
+2018-09-21 09:29:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Rubica/input_password (2)'
+
+2018-09-21 09:29:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rubica/input_password (2)'
+
+2018-09-21 09:29:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Rubica/button_Login (2)' is clicked on
+
+2018-09-21 09:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rubica/button_Login (2)' is clicked on
+
+2018-09-21 09:29:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'These credentials do not match our records.' is present on page 
+
+2018-09-21 09:29:26 - [MESSAGE][PASSED] - Text 'These credentials do not match our records.' is present on page 
+
+2018-09-21 09:29:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 09:29:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with 2FA" classname="Test Cases/Login with 2FA" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:29:26 - [TEST_CASE][PASSED] - Test Cases/Login with 2FA: Test Cases/Login with 2FA
+
+2018-09-21 09:29:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 09:29:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 09:29:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:29 - [MESSAGE][PASSED] - Navigate to 'https://portal-stage.dev.rubica.com/login' successfully
+
+2018-09-21 09:29:29 - [TEST_STEP][PASSED] - setText: Text 'ryan.harmaning+apiauto@gmail.com' is set on object 'Object Repository/Page_Rubica/input__email'
+
+2018-09-21 09:29:29 - [MESSAGE][PASSED] - Text 'ryan.harmaning+apiauto@gmail.com' is set on object 'Object Repository/Page_Rubica/input__email'
+
+2018-09-21 09:29:29 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Rubica/input_Forgot Your Password_pas'
+
+2018-09-21 09:29:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rubica/input_Forgot Your Password_pas'
+
+2018-09-21 09:29:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Rubica/button_Login (3)' is clicked on
+
+2018-09-21 09:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rubica/button_Login (3)' is clicked on
+
+2018-09-21 09:29:31 - [TEST_STEP][PASSED] - setText: Text '817631' is set on object 'Object Repository/Page_Rubica/input__token'
+
+2018-09-21 09:29:31 - [MESSAGE][PASSED] - mfa.readMFA.getMFAToken is PASSED
+
+2018-09-21 09:29:31 - [MESSAGE][PASSED] - Text '817631' is set on object 'Object Repository/Page_Rubica/input__token'
+
+2018-09-21 09:29:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Rubica/button_Verify' is clicked on
+
+2018-09-21 09:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rubica/button_Verify' is clicked on
+
+2018-09-21 09:29:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Rubica/a_Dashboard' is clicked on
+
+2018-09-21 09:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rubica/a_Dashboard' is clicked on
+
+2018-09-21 09:29:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 09:29:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 09:29:12 - [TEST_SUITE][PASSED] - Logins: Test Cases/Login with 2FA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

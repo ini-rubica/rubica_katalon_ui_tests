@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Turn_Protection_On_And_Off</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7142a75-53ce-4047-976f-79ba2529bc12</testCaseGuid>
+</TestCaseEntity>

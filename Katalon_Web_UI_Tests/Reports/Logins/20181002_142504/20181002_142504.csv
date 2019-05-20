@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Logins,Firefox 62.0,Testing Login success\\failure scenarios,2018-10-02 14:25:07,2018-10-02 14:25:35,28.069s,PASSED
+,,,,,,
+Test Cases/Login User Role,Firefox 62.0,Login using user's google 2FA secret,2018-10-02 14:25:07,2018-10-02 14:25:19,11.646s,PASSED
+openBrowser,Firefox 62.0,,2018-10-02 14:25:07,2018-10-02 14:25:15,7.587s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-02 14:25:15,2018-10-02 14:25:17,1.941s,PASSED
+setText,Firefox 62.0,,2018-10-02 14:25:17,2018-10-02 14:25:17,0.174s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-02 14:25:17,2018-10-02 14:25:17,0.158s,PASSED
+click,Firefox 62.0,,2018-10-02 14:25:17,2018-10-02 14:25:18,1.210s,PASSED
+verifyTextPresent,Firefox 62.0,,2018-10-02 14:25:18,2018-10-02 14:25:18,0.095s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-02 14:25:18,2018-10-02 14:25:19,0.226s,PASSED
+,,,,,,
+Test Cases/Login Bad Password,Firefox 62.0,Incorrect password error message,2018-10-02 14:25:19,2018-10-02 14:25:24,5.880s,PASSED
+openBrowser,Firefox 62.0,,2018-10-02 14:25:19,2018-10-02 14:25:21,2.149s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-02 14:25:21,2018-10-02 14:25:23,1.859s,PASSED
+setText,Firefox 62.0,,2018-10-02 14:25:23,2018-10-02 14:25:23,0.129s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-02 14:25:23,2018-10-02 14:25:23,0.056s,PASSED
+click,Firefox 62.0,,2018-10-02 14:25:23,2018-10-02 14:25:24,1.253s,PASSED
+verifyTextPresent,Firefox 62.0,,2018-10-02 14:25:24,2018-10-02 14:25:24,0.092s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-02 14:25:24,2018-10-02 14:25:24,0.219s,PASSED
+,,,,,,
+Test Cases/Login with 2FA,Firefox 62.0,Login using user's google 2FA secret,2018-10-02 14:25:24,2018-10-02 14:25:35,10.127s,PASSED
+openBrowser,Firefox 62.0,,2018-10-02 14:25:25,2018-10-02 14:25:27,2.332s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-02 14:25:27,2018-10-02 14:25:29,2.288s,PASSED
+setText,Firefox 62.0,,2018-10-02 14:25:29,2018-10-02 14:25:29,0.083s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-02 14:25:29,2018-10-02 14:25:29,0.054s,PASSED
+click,Firefox 62.0,,2018-10-02 14:25:29,2018-10-02 14:25:31,1.452s,PASSED
+setText,Firefox 62.0,,2018-10-02 14:25:31,2018-10-02 14:25:31,0.070s,PASSED
+click,Firefox 62.0,,2018-10-02 14:25:31,2018-10-02 14:25:33,1.882s,PASSED
+click,Firefox 62.0,,2018-10-02 14:25:33,2018-10-02 14:25:34,1.568s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-02 14:25:34,2018-10-02 14:25:35,0.318s,PASSED
